@@ -1,0 +1,258 @@
+/* IDENTITAS MANCA GARAGE.ID */
+
+body {
+    background: #f4f1ea;
+    color: #182436;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #101b2b !important;
+    padding: 18px 30px !important;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* JUDUL */
+h3 {
+    font-weight: bold;
+    color: #101b2b;
+    margin-bottom: 20px;
+}
+
+/* CARD */
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+}
+
+/* TOMBOL */
+.btn-primary {
+    background: #101b2b !important;
+    border-color: #101b2b !important;
+}
+
+.btn-success {
+    background: #e87532 !important;
+    border-color: #e87532 !important;
+}
+
+.btn-warning {
+    background: #f0ad4e !important;
+    border: none !important;
+}
+
+.btn-danger {
+    background: #c74747 !important;
+    border: none !important;
+}
+
+.btn {
+    border-radius: 7px;
+    padding: 8px 16px;
+}
+
+/* TABEL */
+.table {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table-primary th {
+    background: #101b2b !important;
+    color: white !important;
+}
+
+.table td, .table th {
+    padding: 14px;
+    vertical-align: middle;
+}
+
+/* FOOTER */
+.footer {
+    background: #101b2b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* DASHBOARD MANCA GARAGE */
+
+.main-content {
+    padding: 35px;
+}
+
+.welcome {
+    background: #101b2b;
+    color: white;
+    padding: 30px;
+    border-radius: 14px;
+    margin-bottom: 25px;
+}
+
+.welcome h2 {
+    font-weight: bold;
+}
+
+.stat-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+    border-left: 5px solid #e87532;
+}
+
+.stat-card h2 {
+    color: #e87532;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.menu-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+.footer {
+    margin-top: 60px;
+}
+
+
+/* HALAMAN DATA MOBIL */
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.page-subtitle {
+    color: #777;
+    margin-top: -12px;
+}
+
+.vehicle-card {
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    margin-bottom: 25px;
+}
+
+.vehicle-card h2 {
+    color: #e87532;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.table-responsive {
+    border-radius: 10px;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table thead th {
+    background: #101b2b;
+    color: white;
+    border: none;
+    white-space: nowrap;
+}
+
+.table tbody td {
+    padding: 15px;
+}
+
+.vehicle-footer {
+    background: #101b2b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* FORM KENDARAAN */
+
+.form-container {
+    max-width: 650px;
+    margin: 35px auto;
+}
+
+.form-card {
+    background: white;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+}
+
+.form-title {
+    border-bottom: 2px solid #e87532;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #182436;
+}
+
+.form-control, .form-select {
+    padding: 11px;
+    border-radius: 7px;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #e87532;
+    box-shadow: 0 0 0 0.2rem rgba(232,117,50,0.15);
+}
+
+
+/* NAVIGASI MANCA GARAGE */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navbar .btn {
+    margin-left: 5px;
+}
+
+/* EFEK TOMBOL */
+.btn {
+    transition: 0.2s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+/* TAMPILAN FOOTER */
+.vehicle-footer,
+.footer {
+    line-height: 1.7;
+}

@@ -1,0 +1,33 @@
+INFORMASI AKSES WEBSITE
+
+Nama Proyek: MANCA GARAGE.ID
+Jenis Aplikasi: Website Rental Kendaraan
+Database: ats613250006
+
+URL Website:
+http://localhost/[nama-folder-proyek]/
+
+URL Admin:
+http://localhost/[nama-folder-proyek]/login.php
+
+Username Admin:
+[Isi username admin]
+
+Password Admin:
+[Isi password admin]
+
+Database:
+ats613250006
+
+Dikembangkan menggunakan:
+- PHP
+- MySQL
+- HTML
+- CSS
+- XAMPP
+
+Nama Mahasiswa:
+Muhammad Mahesa Jenar
+
+NPM:
+613250006
